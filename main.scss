@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgba(10, 38, 64, 1);
+    width: 1400px;
+    height: 798px;
+}
+.head{
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+nav{
+    width: 500px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+a{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+button{
+    font-weight: 700;
+
+    border-radius: 20px;
+    color: #0A2640;
+}
+.navbar button{
+    width: 128px;
+    height: 40px;
+}
+.content{
+    width: 1200px;
+    height: 423px;
+    margin: 0px 100px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 52px;
+    font-weight: 400px;
+    color: white;
+    height: 138px;
+    width: 567px;
+}
+p{
+    font-weight: 400px;
+
+}
+.pp{
+    font-size: 16px;
+    height: 56px;
+    width: 567px;
+    line-height: 28px;
+}
+.matn button{
+    margin-top: 40px;
+    height: 60px;
+    width: 247px;
+    border-radius: 56px;
+    background-color:rgba(105, 230, 166, 1);
+    font-size: 20px;
+}
+.matn button:nth-of-type(2){
+    width: 200px;
+    background:none ;
+    color: white;
+    border: 1px solid white;
+    margin-left: 14px;
+}
+.slayd{
+    display: flex;
+}
+.slayd img{
+ display: flex;
+ justify-content: end;
+}
+.logos{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: center;
+    height: 213px;
+}
+main{
+    // border: 1px solid red;
+    margin: 0px 100px;
+    width: 1200px;
+}
+.orta-1{
+    // width: 842px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+.gre{
+    line-height: 32px;
+    color: #777777;
+    height: 32px;
+    font-size: 20px;
+   
+}
+.hand{
+    line-height: 72px;
+    width: 842px;
+    font-size: 48px;
+    text-align: center;
+}
+}
+.orta-2{
+    display: flex;
+    justify-content: space-between;
+}
+.tanishuv{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 575px;
+
+}
+.tanishuv p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.tanishuv p:nth-of-type(1){
+    height: 60px;
+    width: 293px;
+    line-height: 36px;
+
+    font-size: 24px;
+}
+.tanishuv p:nth-of-type(2){
+    height: 64px;
+    width: 293px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+.tanishuv-end {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    border-bottom: 1px solid black;
+}
+.tanishuv-end img{
+    height: 26px;
+    width: 24px;
+}
+.tanishuv-end p{
+    height: 100px;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.orta-3{
+    display: flex;
+    justify-content: space-between;
+    // width: 1137px;
+    height: 710px;
+    padding-top: 100px;
+}  
+.img-1{
+    display: flex;
+    width: 50%;
+    height: 610px;
+}
+.img-1 img:nth-of-type(1){
+    height: 506px;
+    width: 494px;
+}
+.img-1 img:nth-of-type(2){
+    position: relative;
+    top: 200px;
+    right: 350px;
+    width: 350px;
+    height: 442px;
+}
+.matn-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.word-1{
+    display: flex;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    height: 185px;
+}
+.word-2{
+    display: flex;
+    align-items: center;
+    width: 520px;
+    margin-top: 40px;
+    height: 40px;
+    font-size: 28px;
+    text-align: start;
+
+
+}
+.word-2:nth-of-type(2){
+    width: 509px;    
+}
+.word-2:nth-last-child(2){
+    width: 423px;    
+}
+.pp2{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 26px;
+}
+.matn-1 img{
+    width: 36px;
+    height: 36px;
+}
+.orta-3 button{
+    width:230px ;
+    height: 70px;
+    font-size: 22px;
+    color: white;
+    background-color: #0A2640;
+    margin-top: 45px;
+}
+.orta-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    height: 700px;
+    margin-bottom: 50px;
+
+}
+.matn-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+.matn-2 button{
+    padding-left: 20px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    color: #0A2640;
+    border-radius: 5px;
+    background:whitesmoke;
+    border: none;
+    margin-top: 25px;
+}
+.pad{
+    padding-left: 20px;
+
+}
+.matn-2 button:nth-of-type(1){
+    background-color:  #0A2640;
+    color:whitesmoke ;
+}
+.orta-5{
+    background: #0A2640;
+    width: 1400px;
+    height: 800px;
+    margin-left: -100px;
+}
+.matn-5{
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+}
+.word-5{
+    color: white;
+    margin-left: 100px;
+    align-items: flex-end;
+    display: flex;
+    font-size: 55px;
+    width: 700px;
+    height: 250px;
+    line-height: 72px;
+}
+.www{
+    height: 270px;
+    width: 172px;
+    display: flex;
+    align-items: flex-end;
+}
+.www img{
+    width: 172px;
+    height: 72px;
+}
+.kub{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 480px; ;
+    margin-left:  100px;
+}
+.cub{
+    width: 382px;
+    height: 322px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color:rgba(0, 0, 0, 1) ;
+}
+.cub:nth-child(3){
+    height: 364px;
+}
+.cub:nth-child(2){
+    height: 394px;
+
+}
+.cubt{
+    width: 300px;
+    height: 175px;
+    font-size: 30px;
+    line-height: 36px;
+   
+}
+.cubtq{
+    width: 280px;
+    height: 250px;
+    font-size: 30px;
+   text-align: left;
+}
+.cubtw{
+    width: 300px;
+    height: 225px;
+    font-size: 30px;
+}
+.cub img{
+    height: 58px;
+    width: 300px;
+}
+.orta-6{
+    margin: 0px 50px;
+    width: 1100px;
+    height: 650px;
+}
+.orta-6 .matn-6{
+    display: flex;
+     width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    .word-p{
+        display: flex;
+        line-height: 1.4em;
+        font-size: 2.5em;
+        width: 470px;
+
+    }
+    .but-2{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 500px;
+    }
+        button{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: none;
+            box-shadow: 0px 1px 0px 0px rgb(158, 157, 157);
+            width: 500px;
+            height: 70px;
+            color: #000000;
+            text-align: center;
+            font-size: 1.2rem;
+            border-radius: 0px;
+        }
+}
+.orta-7{
+    width: 1000px;
+    height: 770px;
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .matn-6{
+        width: 1000px;
+        height: 290px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .txtt{
+            color: gray;
+            font-size: 20px;
+            height: 40px;
+        }
+        .txtt-2{
+            color: black;
+            font-size:55px;
+            line-height: 72px;
+            text-align: center;
+
+        }
+    }
+    .content-20{
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        height: 425px;
+        .contet-21{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 424px;
+            
+        }
+            .ax{
+                padding-top: 10px;
+                font-size: 16px;
+                font-weight: 700;
+                height: 35px;
+
+            }
+            .axx{
+                width: 300px;
+                height: 99px;
+                font-size: 20px;
+                line-height: 32px;
+                
+            }
+    }
+    button{
+        margin: auto;
+        width: 200px;
+        height: 3rem;
+    }
+}
+.content-20 span{
+    color: #777777;
+}
+.orta-8{
+    width: 1200px;
+    height: 370px;
+    background: #0A2640;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.matn-7{
+    width: 720px;
+    margin-top: 50px;
+    height: 400px;
+    font-size: 56px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 604px;
+    height: 190px;
+    color: black;
+
+    button {
+        width: 210px;
+        height: 60px;
+        background-color: rgba(101, 228, 163, 1);
+        font-size: 20px;
+        border-radius: 30px;
+
+    }
+    input{
+        display: flex;
+        align-items: center;
+        width: 370px;
+        height: 60px;
+        border-radius: 30px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}
+footer{
+    width: 1400px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+}
+.oxirn1{
+    margin: 0px 100px;
+    width: 1100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footmenu{
+    width: 300px;
+    height: 250px;
+ 
+}
+.footmenu2{
+    width: 150px;
+    height: 240px;
+}
+.footmenu p{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+}
+.footmenu p:nth-of-type(1){
+    padding-top: 40px;
+}
+.footmenu2 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 150px;
+    align-items: flex-start;
+    line-height: 65px;
+}
+.footmenu2 a{
+    color: #777777;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footmenu2 button{
+    width: 70px;
+    height: 30px;
+    background: #65E4A3;
+    border: none;
+    margin-left: 7px;
+}
+
+
+
+
